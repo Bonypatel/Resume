@@ -1,0 +1,6 @@
+# Ignore the build related and log files for the resume
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
