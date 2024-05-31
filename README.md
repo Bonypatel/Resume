@@ -18,5 +18,3 @@ You can find out more about it here: [LaTeX Project](http://www.latex-project.or
 
 ### Source Sans Pro
 [Source Sans Pro](https://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
-
-Good luck!
