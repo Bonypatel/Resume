@@ -402,7 +402,7 @@
     \ifthenelse{\isundefined{\@position}}{}{\headerpositionstyle{\@position\\}}
     \vspace{0.5mm}
     \ifthenelse{\isundefined{\@address}}{}{\headeraddressstyle{\@address\\}}
-    \vspace{3mm}
+    \vspace{0.5mm}
     \headersocialstyle{
       \newbool{isstart}
       \setbool{isstart}{true}
@@ -485,7 +485,7 @@
     } \\
     \ifthenelse{\isundefined{\@quote}}
       {}
-      {\vspace{5.0mm}\headerquotestyle{\@quote\\}\vspace{4.0mm}}
+      {\vspace{0.5mm}\headerquotestyle{\@quote\\}\vspace{.0mm}}
   \end{center}
 }
 
@@ -609,7 +609,7 @@
 }{
   \end{itemize}
   \end{justify}
-  \vspace{-2mm}
+  \vspace{-2.5mm} % THIS CHANGES GAP AFTER HEADERS BONY CHECK HERE COMMON THINGS ILL SEARCH WHEN I INEVITABLY FORGET: FUCK HEADER BULLSHIT WHY IS MY RESUME STILL IN LATEX
 }
 
 
