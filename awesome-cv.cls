@@ -409,7 +409,7 @@
       \ifthenelse{\isundefined{\@mobile}}
         {}
         {
-          \faMobile\ \@mobile
+          \@mobile % \faMobile\ to add the glyph back
           \setbool{isstart}{false}
         }
       \ifthenelse{\isundefined{\@email}}
@@ -420,7 +420,7 @@
               \setbool{istart}{false} 
             }
             {\@headersocialsep}
-          \href{mailto:\@email}{\faEnvelope\ \@email}
+          \href{mailto:\@email}{\@email} % \faEnvelope\ to add the glyph back
         }
       \ifthenelse{\isundefined{\@homepage}}
         {}
