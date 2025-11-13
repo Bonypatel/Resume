@@ -232,7 +232,7 @@
 \newcommand*{\subsectionstyle}[1]{{\fontsize{11pt}{1em}\bodyfont\scshape\textcolor{text}{#1}}}
 
 % For elements of entry
-\newcommand*{\entrytitlestyle}[1]{{\fontsize{11pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\entrytitlestyle}[1]{{\fontsize{12pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\entrypositionstyle}[1]{{\fontsize{9pt}{1em}\bodyfont\scshape\color{awesome} #1}}
 \newcommand*{\entrydatestyle}[1]{{\fontsize{8pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 \newcommand*{\entrylocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
@@ -511,7 +511,7 @@
   \phantomsection{}
   \sectionstyle{#1}
   \color{gray}\vhrulefill{0.9pt}
-  \par\nobreak\addvspace{-0.5ex}
+  \par\nobreak\addvspace{-0.1ex}
 }
 
 % Define a subsection for CV
@@ -609,7 +609,7 @@
 }{
   \end{itemize}
   \end{justify}
-  \vspace{-4.0mm} % THIS CHANGES GAP AFTER HEADERS BONY CHECK HERE COMMON THINGS ILL SEARCH WHEN I INEVITABLY FORGET: FUCK HEADER BULLSHIT WHY IS MY RESUME STILL IN LATEX
+  \vspace{-2.5mm} % THIS CHANGES GAP AFTER HEADERS BONY CHECK HERE COMMON THINGS ILL SEARCH WHEN I INEVITABLY FORGET: FUCK HEADER BULLSHIT WHY IS MY RESUME STILL IN LATEX
 }
 
 
