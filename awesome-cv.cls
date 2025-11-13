@@ -233,7 +233,7 @@
 
 % For elements of entry
 \newcommand*{\entrytitlestyle}[1]{{\fontsize{11pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
-\newcommand*{\entrypositionstyle}[1]{{\fontsize{8pt}{1em}\bodyfont\scshape\color{graytext} #1}}
+\newcommand*{\entrypositionstyle}[1]{{\fontsize{9pt}{1em}\bodyfont\scshape\color{awesome} #1}}
 \newcommand*{\entrydatestyle}[1]{{\fontsize{8pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 \newcommand*{\entrylocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
 \newcommand*{\descriptionstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text} #1}}
@@ -511,7 +511,7 @@
   \phantomsection{}
   \sectionstyle{#1}
   \color{gray}\vhrulefill{0.9pt}
-  \par\nobreak\addvspace{1ex}
+  \par\nobreak\addvspace{-0.5ex}
 }
 
 % Define a subsection for CV
@@ -553,7 +553,7 @@
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{12.5cm} R{4.5cm}}
-    \setlength\leftskip{0.2cm}
+    \setlength\leftskip{0.1cm}
     \subentrytitlestyle{#2} & \ifthenelse{\equal{#1}{}}
       {\subentrydatestyle{#3}}{} 
     \ifthenelse{\equal{#1}{}}
@@ -609,7 +609,7 @@
 }{
   \end{itemize}
   \end{justify}
-  \vspace{-2.5mm} % THIS CHANGES GAP AFTER HEADERS BONY CHECK HERE COMMON THINGS ILL SEARCH WHEN I INEVITABLY FORGET: FUCK HEADER BULLSHIT WHY IS MY RESUME STILL IN LATEX
+  \vspace{-4.0mm} % THIS CHANGES GAP AFTER HEADERS BONY CHECK HERE COMMON THINGS ILL SEARCH WHEN I INEVITABLY FORGET: FUCK HEADER BULLSHIT WHY IS MY RESUME STILL IN LATEX
 }
 
 
